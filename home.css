@@ -1,0 +1,152 @@
+/* style.css */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    height:60px;
+    margin-right:20px;
+   
+}
+.navbar-brand{
+    color:red;
+}
+
+.navbar-brand img{
+    height:40px;
+    width:70px;
+    
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+nav-item a{
+    color:white;
+}
+
+.nav-link:hover {
+    color: #d4e1f5 !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+/* Main Section */
+.container {
+    padding-top: 0px;
+}
+
+.container img {
+    border-radius: 0px;
+    width:100%;
+    height:100%;
+   border-radius: 10px;;
+}
+.pd-tb-6 {
+    padding: 3.75rem 0;
+}
+.row{
+display: flex;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+}
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: auto;
+    
+}
+about-img img{
+    border-style: none;
+    border:2px solid rgb(22, 21, 21);
+}
+
+
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: #ffffff;
+   
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card-text {
+    color: #6c757d;
+}
+.text-center img{
+   
+
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+#footer {
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    margin-top:20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    .navbar-collapse {
+        justify-content: center;
+    }
+}

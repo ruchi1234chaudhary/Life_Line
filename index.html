@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPD Queue Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="home.html" class="navbar-brand">Hospital Management System</a>
+            <ul class="navbar-menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="opd_queue_management.html" class="active">OPD Queue Management</a></li>
+                <li><a href="bed_availability.html">Bed Availability</a></li>
+                <li><a href="patient_admission.html">Patient Admission</a></li>
+                <li><a href="inventory_management.html">Inventory Management</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>OPD Queue Management</h1>
+        <div class="card">
+            <h2>View Current Queue</h2>
+            <p>See the list of patients currently in the queue.</p>
+            <button onclick="viewQueue()">View Queue</button>
+        </div>
+
+        <div class="card">
+            <h2>Add New Patient to Queue</h2>
+            <p>Input new patient details to add them to the queue.</p>
+            <button onclick="addPatient()">Add Patient</button>
+        </div>
+
+        <div class="card">
+            <h2>Manage Queue</h2>
+            <p>Manage the queue, call the next patient, or prioritize cases.</p>
+            <button onclick="manageQueue()">Manage Queue</button>
+        </div>
+
+        <div class="card">
+            <h2>Notifications</h2>
+            <p>Send alerts when a patient's turn is near.</p>
+            <button onclick="sendNotifications()">Send Notifications</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
